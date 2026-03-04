@@ -1,0 +1,178 @@
+{
+  "data": {
+    "nodeExhibitions": {
+      "__typename": "NodeExhibitionConnection",
+      "nodes": [
+        {
+          "__typename": "NodeExhibition",
+          "id": "exhibition-impressionism",
+          "title": "Light in Motion: Impressionism Rediscovered",
+          "path": "/exhibitions/light-in-motion-impressionism-rediscovered",
+          "body": {
+            "processed": "<p>This landmark exhibition brings together over 120 masterworks from private collections and international museums, many never before displayed publicly. Trace the revolutionary path from Monet's early plein air studies to the bold experiments of the Post-Impressionists.</p><h2>Exhibition Highlights</h2><ul><li>Rare early works by Claude Monet and Pierre-Auguste Renoir</li><li>A newly attributed painting by Berthe Morisot</li><li>Interactive digital installations exploring color theory</li><li>Period photographs and letters from the artists' archives</li></ul><h2>Curator's Statement</h2><p>This exhibition challenges our assumptions about a movement we think we know well. By focusing on lesser-known works and private correspondence, we reveal the Impressionists not as gentle painters of lily ponds, but as fierce revolutionaries who transformed the very nature of seeing.</p>",
+            "summary": "This landmark exhibition brings together over 120 masterworks from private collections and international museums, many never before displayed publicly. Trace the revolutionary path from Monet's early "
+          },
+          "subtitle": "A groundbreaking exploration of the Impressionist movement's most radical innovations",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&q=80",
+            "alt": "Impressionist painting of a sunlit garden scene",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "startDate": {
+            "timestamp": 1771135200
+          },
+          "endDate": {
+            "timestamp": 1782795600
+          },
+          "locationName": "West Wing Galleries, Floors 2-3",
+          "admissionInfo": {
+            "processed": "<p>Included with general admission. Timed-entry tickets recommended for weekends. Members enjoy priority access.</p>",
+            "summary": "Included with general admission. Timed-entry tickets recommended for weekends. Members enjoy priority access."
+          },
+          "curator": "Dr. Elena Vasquez",
+          "exhibitionType": [
+            {
+              "id": "Temporary",
+              "name": "Temporary"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeExhibition",
+          "id": "exhibition-ancient-egypt",
+          "title": "Eternal Sands: Treasures of Ancient Egypt",
+          "path": "/exhibitions/eternal-sands-ancient-egypt",
+          "body": {
+            "processed": "<p>Journey through the magnificent world of ancient Egypt in this permanent exhibition featuring over 500 objects from the museum's renowned Egyptian collection. From monumental temple reliefs to delicate jewelry, each artifact tells the story of one of history's most fascinating civilizations.</p><h2>Gallery Sections</h2><ul><li>Daily Life on the Nile - tools, pottery, and household objects</li><li>The Royal Court - sculpture and regalia of the pharaohs</li><li>Temples and Gods - religious objects and architectural fragments</li><li>Journey to the Afterlife - funerary art, mummies, and the Book of the Dead</li></ul><p>The exhibition includes a fully reconstructed tomb chapel with original wall paintings dating to the 18th Dynasty.</p>",
+            "summary": "Journey through the magnificent world of ancient Egypt in this permanent exhibition featuring over 500 objects from the museum's renowned Egyptian collection. From monumental temple reliefs to delicat"
+          },
+          "subtitle": "Three thousand years of civilization, art, and belief",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=800&q=80",
+            "alt": "Ancient Egyptian golden artifacts displayed in a museum case",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "startDate": {
+            "timestamp": 1704088800
+          },
+          "endDate": {
+            "timestamp": 1861855200
+          },
+          "locationName": "Egyptian Wing, Ground Floor",
+          "admissionInfo": {
+            "processed": "<p>Included with general admission. Free guided tours available daily at 11:00 AM and 2:00 PM.</p>",
+            "summary": "Included with general admission. Free guided tours available daily at 11:00 AM and 2:00 PM."
+          },
+          "curator": "Dr. James Whitfield",
+          "exhibitionType": [
+            {
+              "id": "Permanent",
+              "name": "Permanent"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeExhibition",
+          "id": "exhibition-digital-futures",
+          "title": "Digital Futures: Art in the Age of AI",
+          "path": "/exhibitions/digital-futures",
+          "body": {
+            "processed": "<p>This provocative exhibition explores the intersection of artificial intelligence, machine learning, and contemporary art. Featuring works by 25 international artists who use computational tools as their medium, Digital Futures asks fundamental questions about authorship, creativity, and what it means to be human in a technological age.</p><h2>Featured Installations</h2><ul><li>An immersive generative art environment that responds to visitor movement</li><li>AI-collaborative paintings created through human-machine dialogue</li><li>Data sculptures visualizing global information flows</li><li>Interactive stations where visitors can experiment with creative AI tools</li></ul><p>A companion symposium series runs throughout the exhibition, featuring artists, technologists, and philosophers in conversation.</p>",
+            "summary": "This provocative exhibition explores the intersection of artificial intelligence, machine learning, and contemporary art. Featuring works by 25 international artists who use computational tools as the"
+          },
+          "subtitle": "How technology is reshaping creativity and artistic expression",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80",
+            "alt": "Immersive digital art installation with colorful projections",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "startDate": {
+            "timestamp": 1772344800
+          },
+          "endDate": {
+            "timestamp": 1789448400
+          },
+          "locationName": "Contemporary Arts Center, Level 4",
+          "admissionInfo": {
+            "processed": "<p>Separate timed-entry ticket required. Adults $12, Students $8, Members free. Advance booking recommended.</p>",
+            "summary": "Separate timed-entry ticket required. Adults $12, Students $8, Members free. Advance booking recommended."
+          },
+          "curator": "Maria Chen",
+          "exhibitionType": [
+            {
+              "id": "Temporary",
+              "name": "Temporary"
+            },
+            {
+              "id": "Interactive",
+              "name": "Interactive"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

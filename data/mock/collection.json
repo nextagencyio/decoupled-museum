@@ -1,0 +1,157 @@
+{
+  "data": {
+    "nodeCollections": {
+      "__typename": "NodeCollectionConnection",
+      "nodes": [
+        {
+          "__typename": "NodeCollection",
+          "id": "collection-monet-water-lilies",
+          "title": "Water Lilies at Giverny",
+          "path": "/collection/monet-water-lilies-at-giverny",
+          "body": {
+            "processed": "<p>This magnificent painting is one of approximately 250 oil paintings in Claude Monet's celebrated Water Lilies series. Painted in the final decade of the artist's life, this work captures the shimmering surface of the lily pond at his beloved garden in Giverny, France.</p><p>The painting demonstrates Monet's increasingly abstract approach to landscape, dissolving form into pure color and light. The viewer's eye moves across the canvas as though floating on the water's surface, surrounded by reflected sky, willow branches, and the luminous blossoms themselves.</p><h2>Provenance</h2><p>Acquired from the estate of a private collector in 1962, this painting has been a cornerstone of the museum's Impressionist collection for over sixty years.</p>",
+            "summary": "This magnificent painting is one of approximately 250 oil paintings in Claude Monet's celebrated Water Lilies series. Painted in the final decade of the artist's life, this work captures the shimmerin"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1460627390041-532a28402358?w=800&q=80",
+            "alt": "Impressionist painting of water lilies on a pond",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1460627390041-532a28402358?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1460627390041-532a28402358?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1460627390041-532a28402358?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "artist": "Claude Monet",
+          "dateCreated": "1919",
+          "medium": "Oil on canvas",
+          "dimensions": "200 x 180 cm (78.7 x 70.9 in)",
+          "accessionNumber": "MMA.1962.47",
+          "collectionCategory": [
+            {
+              "id": "Paintings",
+              "name": "Paintings"
+            }
+          ],
+          "onDisplay": true
+        },
+        {
+          "__typename": "NodeCollection",
+          "id": "collection-bronze-apollo",
+          "title": "Bronze Apollo of Delphi",
+          "path": "/collection/bronze-apollo-delphi",
+          "body": {
+            "processed": "<p>This remarkable bronze figure of Apollo, dating to the early 5th century BCE, is one of the finest examples of early Classical Greek sculpture in any collection. Standing at just under a meter in height, the figure displays the characteristic transition from the rigid Archaic style to the more naturalistic Classical manner.</p><p>The figure was discovered during excavations at a sanctuary site in southern Greece in 1923. Its exceptional state of preservation, with intact inlaid silver eyes and copper lips, makes it an invaluable document of ancient metalworking techniques.</p><h2>Conservation</h2><p>The sculpture underwent extensive conservation between 2018 and 2020, revealing traces of original gilding on the hair and sandals that had been obscured by centuries of burial.</p>",
+            "summary": "This remarkable bronze figure of Apollo, dating to the early 5th century BCE, is one of the finest examples of early Classical Greek sculpture in any collection. Standing at just under a meter in heig"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=800&q=80",
+            "alt": "Ancient Greek bronze sculpture in museum display",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "artist": "Unknown Greek sculptor",
+          "dateCreated": "c. 480 BCE",
+          "medium": "Bronze with silver and copper inlay",
+          "dimensions": "97 x 32 x 28 cm (38.2 x 12.6 x 11 in)",
+          "accessionNumber": "MMA.1924.112",
+          "collectionCategory": [
+            {
+              "id": "Sculpture",
+              "name": "Sculpture"
+            },
+            {
+              "id": "Ancient Artifacts",
+              "name": "Ancient Artifacts"
+            }
+          ],
+          "onDisplay": true
+        },
+        {
+          "__typename": "NodeCollection",
+          "id": "collection-dorothea-lange",
+          "title": "Migrant Family, Highway 99, California",
+          "path": "/collection/lange-migrant-family",
+          "body": {
+            "processed": "<p>This powerful gelatin silver print captures a family of migrant farm workers alongside a dusty California highway in the autumn of 1936. Dorothea Lange's unflinching documentary eye reveals both the hardship and the quiet dignity of Depression-era agricultural laborers.</p><p>The photograph is part of the museum's extensive collection of American documentary photography, which traces the medium's role in social advocacy from the 1930s to the present day.</p><h2>Historical Context</h2><p>Lange made this photograph while working for the Farm Security Administration (FSA), a New Deal agency that employed photographers to document rural poverty across America. Her images became some of the most iconic records of the Great Depression era.</p>",
+            "summary": "This powerful gelatin silver print captures a family of migrant farm workers alongside a dusty California highway in the autumn of 1936. Dorothea Lange's unflinching documentary eye reveals both the h"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+            "alt": "Black and white documentary photograph in museum frame",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "artist": "Dorothea Lange",
+          "dateCreated": "1936",
+          "medium": "Gelatin silver print",
+          "dimensions": "34.3 x 26.7 cm (13.5 x 10.5 in)",
+          "accessionNumber": "MMA.1971.88",
+          "collectionCategory": [
+            {
+              "id": "Photography",
+              "name": "Photography"
+            }
+          ],
+          "onDisplay": false
+        }
+      ]
+    }
+  }
+}

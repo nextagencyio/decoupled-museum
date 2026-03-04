@@ -1,0 +1,859 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Meridian Museum of Art",
+          "path": "/homepage",
+          "heroTitle": "Where Art Meets Discovery",
+          "heroSubtitle": "Meridian Museum of Art",
+          "heroDescription": {
+            "processed": "<p>Explore over 15,000 works spanning five millennia of human creativity. From ancient civilizations to contemporary masterpieces, every visit reveals something extraordinary.</p>",
+            "summary": "Explore over 15,000 works spanning five millennia of human creativity. From ancient civilizations to contemporary masterpieces, every visit reveals something extraordinary."
+          },
+          "heroImage": {
+            "url": "https://images.unsplash.com/photo-1566054757965-8c4085344c96?w=800&q=80",
+            "alt": "Grand museum gallery with visitors admiring artwork",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1566054757965-8c4085344c96?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1566054757965-8c4085344c96?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1566054757965-8c4085344c96?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-visitors",
+              "title": "",
+              "number": "250,000+",
+              "label": "Annual Visitors"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-artworks",
+              "title": "",
+              "number": "15,000",
+              "label": "Artworks in Collection"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-exhibitions",
+              "title": "",
+              "number": "40+",
+              "label": "Exhibitions Per Year"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "75",
+              "label": "Years of Excellence"
+            }
+          ],
+          "featuredItemsTitle": "Current Exhibitions",
+          "ctaTitle": "Become a Member",
+          "ctaDescription": {
+            "processed": "<p>Join the Meridian Museum community and enjoy unlimited free admission, exclusive exhibition previews, discounts at the museum shop, and invitations to members-only events throughout the year.</p>",
+            "summary": "Join the Meridian Museum community and enjoy unlimited free admission, exclusive exhibition previews, discounts at the museum shop, and invitations to members-only events throughout the year."
+          },
+          "ctaPrimary": "Join Today",
+          "ctaSecondary": "Learn More"
+        }
+      }
+    }
+  },
+  "/exhibitions/light-in-motion-impressionism-rediscovered": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeExhibition",
+          "id": "exhibition-impressionism",
+          "title": "Light in Motion: Impressionism Rediscovered",
+          "path": "/exhibitions/light-in-motion-impressionism-rediscovered",
+          "body": {
+            "processed": "<p>This landmark exhibition brings together over 120 masterworks from private collections and international museums, many never before displayed publicly. Trace the revolutionary path from Monet's early plein air studies to the bold experiments of the Post-Impressionists.</p><h2>Exhibition Highlights</h2><ul><li>Rare early works by Claude Monet and Pierre-Auguste Renoir</li><li>A newly attributed painting by Berthe Morisot</li><li>Interactive digital installations exploring color theory</li><li>Period photographs and letters from the artists' archives</li></ul><h2>Curator's Statement</h2><p>This exhibition challenges our assumptions about a movement we think we know well. By focusing on lesser-known works and private correspondence, we reveal the Impressionists not as gentle painters of lily ponds, but as fierce revolutionaries who transformed the very nature of seeing.</p>",
+            "summary": "This landmark exhibition brings together over 120 masterworks from private collections and international museums, many never before displayed publicly. Trace the revolutionary path from Monet's early "
+          },
+          "subtitle": "A groundbreaking exploration of the Impressionist movement's most radical innovations",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&q=80",
+            "alt": "Impressionist painting of a sunlit garden scene",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "startDate": {
+            "timestamp": 1771135200
+          },
+          "endDate": {
+            "timestamp": 1782795600
+          },
+          "locationName": "West Wing Galleries, Floors 2-3",
+          "admissionInfo": {
+            "processed": "<p>Included with general admission. Timed-entry tickets recommended for weekends. Members enjoy priority access.</p>",
+            "summary": "Included with general admission. Timed-entry tickets recommended for weekends. Members enjoy priority access."
+          },
+          "curator": "Dr. Elena Vasquez",
+          "exhibitionType": [
+            {
+              "id": "Temporary",
+              "name": "Temporary"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/exhibitions/eternal-sands-ancient-egypt": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeExhibition",
+          "id": "exhibition-ancient-egypt",
+          "title": "Eternal Sands: Treasures of Ancient Egypt",
+          "path": "/exhibitions/eternal-sands-ancient-egypt",
+          "body": {
+            "processed": "<p>Journey through the magnificent world of ancient Egypt in this permanent exhibition featuring over 500 objects from the museum's renowned Egyptian collection. From monumental temple reliefs to delicate jewelry, each artifact tells the story of one of history's most fascinating civilizations.</p><h2>Gallery Sections</h2><ul><li>Daily Life on the Nile - tools, pottery, and household objects</li><li>The Royal Court - sculpture and regalia of the pharaohs</li><li>Temples and Gods - religious objects and architectural fragments</li><li>Journey to the Afterlife - funerary art, mummies, and the Book of the Dead</li></ul><p>The exhibition includes a fully reconstructed tomb chapel with original wall paintings dating to the 18th Dynasty.</p>",
+            "summary": "Journey through the magnificent world of ancient Egypt in this permanent exhibition featuring over 500 objects from the museum's renowned Egyptian collection. From monumental temple reliefs to delicat"
+          },
+          "subtitle": "Three thousand years of civilization, art, and belief",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=800&q=80",
+            "alt": "Ancient Egyptian golden artifacts displayed in a museum case",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "startDate": {
+            "timestamp": 1704088800
+          },
+          "endDate": {
+            "timestamp": 1861855200
+          },
+          "locationName": "Egyptian Wing, Ground Floor",
+          "admissionInfo": {
+            "processed": "<p>Included with general admission. Free guided tours available daily at 11:00 AM and 2:00 PM.</p>",
+            "summary": "Included with general admission. Free guided tours available daily at 11:00 AM and 2:00 PM."
+          },
+          "curator": "Dr. James Whitfield",
+          "exhibitionType": [
+            {
+              "id": "Permanent",
+              "name": "Permanent"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/exhibitions/digital-futures": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeExhibition",
+          "id": "exhibition-digital-futures",
+          "title": "Digital Futures: Art in the Age of AI",
+          "path": "/exhibitions/digital-futures",
+          "body": {
+            "processed": "<p>This provocative exhibition explores the intersection of artificial intelligence, machine learning, and contemporary art. Featuring works by 25 international artists who use computational tools as their medium, Digital Futures asks fundamental questions about authorship, creativity, and what it means to be human in a technological age.</p><h2>Featured Installations</h2><ul><li>An immersive generative art environment that responds to visitor movement</li><li>AI-collaborative paintings created through human-machine dialogue</li><li>Data sculptures visualizing global information flows</li><li>Interactive stations where visitors can experiment with creative AI tools</li></ul><p>A companion symposium series runs throughout the exhibition, featuring artists, technologists, and philosophers in conversation.</p>",
+            "summary": "This provocative exhibition explores the intersection of artificial intelligence, machine learning, and contemporary art. Featuring works by 25 international artists who use computational tools as the"
+          },
+          "subtitle": "How technology is reshaping creativity and artistic expression",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80",
+            "alt": "Immersive digital art installation with colorful projections",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "startDate": {
+            "timestamp": 1772344800
+          },
+          "endDate": {
+            "timestamp": 1789448400
+          },
+          "locationName": "Contemporary Arts Center, Level 4",
+          "admissionInfo": {
+            "processed": "<p>Separate timed-entry ticket required. Adults $12, Students $8, Members free. Advance booking recommended.</p>",
+            "summary": "Separate timed-entry ticket required. Adults $12, Students $8, Members free. Advance booking recommended."
+          },
+          "curator": "Maria Chen",
+          "exhibitionType": [
+            {
+              "id": "Temporary",
+              "name": "Temporary"
+            },
+            {
+              "id": "Interactive",
+              "name": "Interactive"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/collection/monet-water-lilies-at-giverny": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCollection",
+          "id": "collection-monet-water-lilies",
+          "title": "Water Lilies at Giverny",
+          "path": "/collection/monet-water-lilies-at-giverny",
+          "body": {
+            "processed": "<p>This magnificent painting is one of approximately 250 oil paintings in Claude Monet's celebrated Water Lilies series. Painted in the final decade of the artist's life, this work captures the shimmering surface of the lily pond at his beloved garden in Giverny, France.</p><p>The painting demonstrates Monet's increasingly abstract approach to landscape, dissolving form into pure color and light. The viewer's eye moves across the canvas as though floating on the water's surface, surrounded by reflected sky, willow branches, and the luminous blossoms themselves.</p><h2>Provenance</h2><p>Acquired from the estate of a private collector in 1962, this painting has been a cornerstone of the museum's Impressionist collection for over sixty years.</p>",
+            "summary": "This magnificent painting is one of approximately 250 oil paintings in Claude Monet's celebrated Water Lilies series. Painted in the final decade of the artist's life, this work captures the shimmerin"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1460627390041-532a28402358?w=800&q=80",
+            "alt": "Impressionist painting of water lilies on a pond",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1460627390041-532a28402358?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1460627390041-532a28402358?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1460627390041-532a28402358?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "artist": "Claude Monet",
+          "dateCreated": "1919",
+          "medium": "Oil on canvas",
+          "dimensions": "200 x 180 cm (78.7 x 70.9 in)",
+          "accessionNumber": "MMA.1962.47",
+          "collectionCategory": [
+            {
+              "id": "Paintings",
+              "name": "Paintings"
+            }
+          ],
+          "onDisplay": true
+        }
+      }
+    }
+  },
+  "/collection/bronze-apollo-delphi": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCollection",
+          "id": "collection-bronze-apollo",
+          "title": "Bronze Apollo of Delphi",
+          "path": "/collection/bronze-apollo-delphi",
+          "body": {
+            "processed": "<p>This remarkable bronze figure of Apollo, dating to the early 5th century BCE, is one of the finest examples of early Classical Greek sculpture in any collection. Standing at just under a meter in height, the figure displays the characteristic transition from the rigid Archaic style to the more naturalistic Classical manner.</p><p>The figure was discovered during excavations at a sanctuary site in southern Greece in 1923. Its exceptional state of preservation, with intact inlaid silver eyes and copper lips, makes it an invaluable document of ancient metalworking techniques.</p><h2>Conservation</h2><p>The sculpture underwent extensive conservation between 2018 and 2020, revealing traces of original gilding on the hair and sandals that had been obscured by centuries of burial.</p>",
+            "summary": "This remarkable bronze figure of Apollo, dating to the early 5th century BCE, is one of the finest examples of early Classical Greek sculpture in any collection. Standing at just under a meter in heig"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=800&q=80",
+            "alt": "Ancient Greek bronze sculpture in museum display",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "artist": "Unknown Greek sculptor",
+          "dateCreated": "c. 480 BCE",
+          "medium": "Bronze with silver and copper inlay",
+          "dimensions": "97 x 32 x 28 cm (38.2 x 12.6 x 11 in)",
+          "accessionNumber": "MMA.1924.112",
+          "collectionCategory": [
+            {
+              "id": "Sculpture",
+              "name": "Sculpture"
+            },
+            {
+              "id": "Ancient Artifacts",
+              "name": "Ancient Artifacts"
+            }
+          ],
+          "onDisplay": true
+        }
+      }
+    }
+  },
+  "/collection/lange-migrant-family": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCollection",
+          "id": "collection-dorothea-lange",
+          "title": "Migrant Family, Highway 99, California",
+          "path": "/collection/lange-migrant-family",
+          "body": {
+            "processed": "<p>This powerful gelatin silver print captures a family of migrant farm workers alongside a dusty California highway in the autumn of 1936. Dorothea Lange's unflinching documentary eye reveals both the hardship and the quiet dignity of Depression-era agricultural laborers.</p><p>The photograph is part of the museum's extensive collection of American documentary photography, which traces the medium's role in social advocacy from the 1930s to the present day.</p><h2>Historical Context</h2><p>Lange made this photograph while working for the Farm Security Administration (FSA), a New Deal agency that employed photographers to document rural poverty across America. Her images became some of the most iconic records of the Great Depression era.</p>",
+            "summary": "This powerful gelatin silver print captures a family of migrant farm workers alongside a dusty California highway in the autumn of 1936. Dorothea Lange's unflinching documentary eye reveals both the h"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+            "alt": "Black and white documentary photograph in museum frame",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "artist": "Dorothea Lange",
+          "dateCreated": "1936",
+          "medium": "Gelatin silver print",
+          "dimensions": "34.3 x 26.7 cm (13.5 x 10.5 in)",
+          "accessionNumber": "MMA.1971.88",
+          "collectionCategory": [
+            {
+              "id": "Photography",
+              "name": "Photography"
+            }
+          ],
+          "onDisplay": false
+        }
+      }
+    }
+  },
+  "/events/family-art-day-spring-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-family-art-day",
+          "title": "Family Art Day: Colors of Spring",
+          "path": "/events/family-art-day-spring-2026",
+          "body": {
+            "processed": "<p>Bring the whole family for a day of creative exploration inspired by our Impressionism exhibition. Activities include guided gallery tours designed for children ages 5-12, hands-on painting workshops, a scavenger hunt through the galleries, and outdoor sketching in the museum sculpture garden.</p><h2>Schedule</h2><ul><li>10:00 AM - Gallery scavenger hunt begins (pick up materials at the front desk)</li><li>10:30 AM & 1:00 PM - Family gallery tours (45 minutes)</li><li>11:00 AM - 3:00 PM - Drop-in painting workshop (Art Studio, Level 1)</li><li>12:00 PM - 2:00 PM - Outdoor sketching in the sculpture garden (weather permitting)</li></ul><p>All materials provided. No registration required for drop-in activities.</p>",
+            "summary": "Bring the whole family for a day of creative exploration inspired by our Impressionism exhibition. Activities include guided gallery tours designed for children ages 5-12, hands-on painting workshops,"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+            "alt": "Children painting on canvases in a museum workshop",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1776524400
+          },
+          "endTime": {
+            "timestamp": 1776542400
+          },
+          "locationName": "Museum-wide",
+          "ticketPrice": "Free with admission",
+          "registrationUrl": "",
+          "audience": "Families with children ages 5-12",
+          "eventCategory": [
+            {
+              "id": "Family Program",
+              "name": "Family Program"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/events/curator-talk-impressionism": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-curator-talk",
+          "title": "Curator's Talk: Behind the Scenes of Light in Motion",
+          "path": "/events/curator-talk-impressionism",
+          "body": {
+            "processed": "<p>Join Dr. Elena Vasquez, curator of our landmark Impressionism exhibition, for an intimate evening talk about the five-year journey to bring Light in Motion to life. Dr. Vasquez will share stories of discovering unknown works in private collections, the complex negotiations with international lenders, and the curatorial decisions that shaped the exhibition narrative.</p><p>The talk will be followed by a Q&A session and a guided walkthrough of select galleries. Light refreshments will be served.</p><h2>About the Speaker</h2><p>Dr. Elena Vasquez is the museum's Senior Curator of European Paintings. She has organized over twenty major exhibitions and is the author of three books on 19th-century French art. Her most recent publication, <em>Radical Light: The Impressionist Revolution</em>, was awarded the College Art Association's prize for distinguished writing on art.</p>",
+            "summary": "Join Dr. Elena Vasquez, curator of our landmark Impressionism exhibition, for an intimate evening talk about the five-year journey to bring Light in Motion to life. Dr. Vasquez will share stories of d"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&q=80",
+            "alt": "Speaker presenting in a museum lecture hall",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1775863800
+          },
+          "endTime": {
+            "timestamp": 1775871000
+          },
+          "locationName": "Auditorium, Level B1",
+          "ticketPrice": "$15 general, Free for members",
+          "registrationUrl": "https://meridianmuseum.org/events/curator-talk-registration",
+          "audience": "Adults",
+          "eventCategory": [
+            {
+              "id": "Lecture",
+              "name": "Lecture"
+            },
+            {
+              "id": "Members Event",
+              "name": "Members Event"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/events/sketch-night-april": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-sketch-night",
+          "title": "After-Hours Sketch Night",
+          "path": "/events/sketch-night-april",
+          "body": {
+            "processed": "<p>Grab your sketchbook and join fellow art enthusiasts for an evening of drawing in the galleries after regular museum hours. This popular monthly program offers a relaxed, social atmosphere where artists of all skill levels can practice observational drawing surrounded by masterworks.</p><h2>What to Bring</h2><ul><li>Your own sketchbook and drawing materials (pencils, charcoal, or pastels only - no wet media)</li><li>A portable stool or cushion if you prefer to sit</li></ul><h2>Guidelines</h2><p>Participants must maintain a distance of at least 3 feet from all artworks. Easels are not permitted in the galleries. A staff member will be available in each gallery to assist and offer informal guidance.</p>",
+            "summary": "Grab your sketchbook and join fellow art enthusiasts for an evening of drawing in the galleries after regular museum hours. This popular monthly program offers a relaxed, social atmosphere where artis"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+            "alt": "Person sketching artwork in a museum gallery",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1777071600
+          },
+          "endTime": {
+            "timestamp": 1777082400
+          },
+          "locationName": "European Paintings Galleries, Floor 2",
+          "ticketPrice": "$10 general, $5 for members and students",
+          "registrationUrl": "https://meridianmuseum.org/events/sketch-night-registration",
+          "audience": "Adults, all skill levels",
+          "eventCategory": [
+            {
+              "id": "Workshop",
+              "name": "Workshop"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/news/museum-acquires-rare-rothko-painting": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-acquisition",
+          "title": "Museum Acquires Rare Rothko Painting from Private Collection",
+          "path": "/news/museum-acquires-rare-rothko-painting",
+          "body": {
+            "processed": "<p>The Meridian Museum of Art has acquired a significant painting by Mark Rothko, expanding its holdings of Abstract Expressionist works. The untitled 1957 painting, featuring the artist's characteristic floating rectangles of deep red and orange, was purchased from a private European collection through a combination of acquisition funds and a generous donor gift.</p><p>The work will join the museum's permanent collection galleries dedicated to mid-20th-century American art. Director Thomas Harrington called the acquisition 'a transformative addition that strengthens our ability to tell the story of postwar American art.'</p><h2>Public Unveiling</h2><p>The painting will go on view for the first time on May 1, 2026, with a special members-only preview on April 30. A free public lecture by art historian Dr. Sarah Mitchell on Rothko's color field practice will accompany the unveiling.</p>",
+            "summary": "The Meridian Museum of Art has acquired a significant painting by Mark Rothko, expanding its holdings of Abstract Expressionist works. The untitled 1957 painting, featuring the artist's characteristic"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1577720643272-265f09367456?w=800&q=80",
+            "alt": "Abstract expressionist painting in deep reds and oranges",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1577720643272-265f09367456?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1577720643272-265f09367456?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1577720643272-265f09367456?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>The museum announces the acquisition of a major 1957 painting by Mark Rothko, set to go on public view in May 2026.</p>",
+            "summary": "The museum announces the acquisition of a major 1957 painting by Mark Rothko, set to go on public view in May 2026."
+          },
+          "publishedDate": {
+            "timestamp": 1771599600
+          },
+          "authorName": "Museum Press Office",
+          "newsCategory": [
+            {
+              "id": "Acquisitions",
+              "name": "Acquisitions"
+            },
+            {
+              "id": "Announcements",
+              "name": "Announcements"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/news/meridian-museum-wins-national-preservation-award": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-award",
+          "title": "Meridian Museum Wins National Preservation Award",
+          "path": "/news/meridian-museum-wins-national-preservation-award",
+          "body": {
+            "processed": "<p>The Meridian Museum of Art has been recognized with the National Trust for Historic Preservation's highest honor for the restoration of its iconic 1938 Beaux-Arts building. The three-year, $42 million project preserved the building's historic character while upgrading climate control, accessibility, and energy efficiency to 21st-century standards.</p><p>Highlights of the restoration include the repair of 12,000 square feet of original terrazzo flooring, the conservation of murals by WPA artist Leonard Gould in the Grand Hall, and the installation of a new geothermal heating and cooling system that reduces the building's carbon footprint by 60%.</p><h2>Jury Comments</h2><p>'The Meridian Museum project demonstrates that historic preservation and environmental sustainability are not only compatible but mutually reinforcing. This is a model for cultural institutions nationwide.'</p>",
+            "summary": "The Meridian Museum of Art has been recognized with the National Trust for Historic Preservation's highest honor for the restoration of its iconic 1938 Beaux-Arts building. The three-year, $42 million"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=800&q=80",
+            "alt": "Grand neoclassical museum building exterior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>The museum receives the National Trust for Historic Preservation's top award for the restoration of its 1938 Beaux-Arts building.</p>",
+            "summary": "The museum receives the National Trust for Historic Preservation's top award for the restoration of its 1938 Beaux-Arts building."
+          },
+          "publishedDate": {
+            "timestamp": 1768492800
+          },
+          "authorName": "Museum Press Office",
+          "newsCategory": [
+            {
+              "id": "Awards",
+              "name": "Awards"
+            },
+            {
+              "id": "Announcements",
+              "name": "Announcements"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/news/summer-programs-2026-registration-open": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-summer-programs",
+          "title": "Summer 2026 Programs: Registration Now Open",
+          "path": "/news/summer-programs-2026-registration-open",
+          "body": {
+            "processed": "<p>Registration is now open for the museum's popular summer education programs, including art camps for children, teen intensives, and adult studio classes. This year's offerings expand to include new courses in printmaking, digital photography, and art conservation.</p><h2>Programs for Young Artists (Ages 6-12)</h2><ul><li>Art Explorers Camp (weekly sessions, June-August)</li><li>Museum Detectives: Learning to Look (two-week intensive, July)</li></ul><h2>Teen Programs (Ages 13-17)</h2><ul><li>Portfolio Preparation Workshop (June)</li><li>Teen Arts Council Summer Institute (July-August)</li></ul><h2>Adult Classes</h2><ul><li>Introduction to Printmaking (6-week course, begins June 7)</li><li>Photography in the Galleries (weekend workshop series)</li><li>Art History Lecture Series: Modern to Contemporary (Thursdays, July-August)</li></ul><p>Early registration discount of 15% available through April 30. Museum members receive an additional 10% off all programs.</p>",
+            "summary": "Registration is now open for the museum's popular summer education programs, including art camps for children, teen intensives, and adult studio classes. This year's offerings expand to include new co"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?w=800&q=80",
+            "alt": "Students in an art studio class",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Sign up now for summer art camps, teen intensives, and adult studio classes, including new courses in printmaking and photography.</p>",
+            "summary": "Sign up now for summer art camps, teen intensives, and adult studio classes, including new courses in printmaking and photography."
+          },
+          "publishedDate": {
+            "timestamp": 1772373600
+          },
+          "authorName": "Education Department",
+          "newsCategory": [
+            {
+              "id": "Announcements",
+              "name": "Announcements"
+            },
+            {
+              "id": "Community",
+              "name": "Community"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/visit": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-visit",
+          "title": "Plan Your Visit",
+          "path": "/visit",
+          "body": {
+            "processed": "<h2>Hours</h2><ul><li>Wednesday - Monday: 10:00 AM - 5:00 PM</li><li>Friday: 10:00 AM - 9:00 PM (extended hours)</li><li>Tuesday: Closed</li></ul><h2>Admission</h2><ul><li>Adults: $18</li><li>Seniors (65+): $14</li><li>Students (with valid ID): $10</li><li>Children (under 12): Free</li><li>Members: Free</li></ul><p>Free admission for all visitors on the first Friday of each month, 5:00 - 9:00 PM.</p><h2>Getting Here</h2><p>The Meridian Museum of Art is located at 500 Museum Drive in the heart of the Arts District. We are accessible by public transit via the Museum Station stop on the Blue Line. Paid parking is available in the museum garage ($12 flat rate) and metered street parking is available along Museum Drive and adjacent streets.</p><h2>Accessibility</h2><p>The museum is fully wheelchair accessible. Wheelchairs are available free of charge at the coat check. Assistive listening devices, large-print gallery guides, and tactile tours are available upon request.</p>",
+            "summary": "HoursWednesday - Monday: 10:00 AM - 5:00 PMFriday: 10:00 AM - 9:00 PM (extended hours)Tuesday: ClosedAdmissionAdults: $18Seniors (65+): $14Students (with valid ID): $10Children (under 12): FreeMembers"
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About the Museum",
+          "path": "/about",
+          "body": {
+            "processed": "<h2>Our Mission</h2><p>The Meridian Museum of Art is dedicated to collecting, preserving, and interpreting works of art of the highest quality, spanning all cultures and periods of history, and to making these collections accessible to the widest possible audience for the purposes of education, inspiration, and enjoyment.</p><h2>Our History</h2><p>Founded in 1951 by philanthropist and art collector Margaret Harlow Meridian, the museum began as a modest gallery housing her personal collection of European paintings. Over seven decades, it has grown into one of the region's foremost cultural institutions, with a permanent collection of over 15,000 objects and a campus that includes the original 1938 Beaux-Arts building, a contemporary art wing added in 2003, and the Meridian Sculpture Garden.</p><h2>Leadership</h2><p>The museum is governed by a Board of Trustees and led by Director Thomas Harrington, who has guided the institution since 2019. The professional staff includes 45 full-time employees across curatorial, education, conservation, and administrative departments, supported by over 200 dedicated volunteers.</p>",
+            "summary": "Our MissionThe Meridian Museum of Art is dedicated to collecting, preserving, and interpreting works of art of the highest quality, spanning all cultures and periods of history, and to making these co"
+          }
+        }
+      }
+    }
+  },
+  "/membership": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-membership",
+          "title": "Membership",
+          "path": "/membership",
+          "body": {
+            "processed": "<h2>Why Join?</h2><p>Museum members are the foundation of everything we do. Your membership directly supports exhibitions, education programs, and the care of the permanent collection. In return, you enjoy year-round benefits that bring you closer to the art and artists you love.</p><h2>Membership Levels</h2><h3>Individual - $75/year</h3><ul><li>Unlimited free admission for one</li><li>10% discount at the museum shop and cafe</li><li>Invitations to members-only previews</li><li>Subscription to the quarterly magazine</li></ul><h3>Dual/Family - $125/year</h3><ul><li>All Individual benefits for two adults and children under 18</li><li>Free admission to Family Art Day programs</li><li>Guest passes (4 per year)</li></ul><h3>Patron - $500/year</h3><ul><li>All Family benefits</li><li>Behind-the-scenes tours with curators</li><li>Priority registration for education programs</li><li>Recognition in the annual report</li></ul>",
+            "summary": "Why Join?Museum members are the foundation of everything we do. Your membership directly supports exhibitions, education programs, and the care of the permanent collection. In return, you enjoy year-r"
+          }
+        }
+      }
+    }
+  }
+}

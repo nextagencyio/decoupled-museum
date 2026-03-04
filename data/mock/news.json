@@ -1,0 +1,171 @@
+{
+  "data": {
+    "nodeNewsItems": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-acquisition",
+          "title": "Museum Acquires Rare Rothko Painting from Private Collection",
+          "path": "/news/museum-acquires-rare-rothko-painting",
+          "body": {
+            "processed": "<p>The Meridian Museum of Art has acquired a significant painting by Mark Rothko, expanding its holdings of Abstract Expressionist works. The untitled 1957 painting, featuring the artist's characteristic floating rectangles of deep red and orange, was purchased from a private European collection through a combination of acquisition funds and a generous donor gift.</p><p>The work will join the museum's permanent collection galleries dedicated to mid-20th-century American art. Director Thomas Harrington called the acquisition 'a transformative addition that strengthens our ability to tell the story of postwar American art.'</p><h2>Public Unveiling</h2><p>The painting will go on view for the first time on May 1, 2026, with a special members-only preview on April 30. A free public lecture by art historian Dr. Sarah Mitchell on Rothko's color field practice will accompany the unveiling.</p>",
+            "summary": "The Meridian Museum of Art has acquired a significant painting by Mark Rothko, expanding its holdings of Abstract Expressionist works. The untitled 1957 painting, featuring the artist's characteristic"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1577720643272-265f09367456?w=800&q=80",
+            "alt": "Abstract expressionist painting in deep reds and oranges",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1577720643272-265f09367456?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1577720643272-265f09367456?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1577720643272-265f09367456?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>The museum announces the acquisition of a major 1957 painting by Mark Rothko, set to go on public view in May 2026.</p>",
+            "summary": "The museum announces the acquisition of a major 1957 painting by Mark Rothko, set to go on public view in May 2026."
+          },
+          "publishedDate": {
+            "timestamp": 1771599600
+          },
+          "authorName": "Museum Press Office",
+          "newsCategory": [
+            {
+              "id": "Acquisitions",
+              "name": "Acquisitions"
+            },
+            {
+              "id": "Announcements",
+              "name": "Announcements"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-award",
+          "title": "Meridian Museum Wins National Preservation Award",
+          "path": "/news/meridian-museum-wins-national-preservation-award",
+          "body": {
+            "processed": "<p>The Meridian Museum of Art has been recognized with the National Trust for Historic Preservation's highest honor for the restoration of its iconic 1938 Beaux-Arts building. The three-year, $42 million project preserved the building's historic character while upgrading climate control, accessibility, and energy efficiency to 21st-century standards.</p><p>Highlights of the restoration include the repair of 12,000 square feet of original terrazzo flooring, the conservation of murals by WPA artist Leonard Gould in the Grand Hall, and the installation of a new geothermal heating and cooling system that reduces the building's carbon footprint by 60%.</p><h2>Jury Comments</h2><p>'The Meridian Museum project demonstrates that historic preservation and environmental sustainability are not only compatible but mutually reinforcing. This is a model for cultural institutions nationwide.'</p>",
+            "summary": "The Meridian Museum of Art has been recognized with the National Trust for Historic Preservation's highest honor for the restoration of its iconic 1938 Beaux-Arts building. The three-year, $42 million"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=800&q=80",
+            "alt": "Grand neoclassical museum building exterior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>The museum receives the National Trust for Historic Preservation's top award for the restoration of its 1938 Beaux-Arts building.</p>",
+            "summary": "The museum receives the National Trust for Historic Preservation's top award for the restoration of its 1938 Beaux-Arts building."
+          },
+          "publishedDate": {
+            "timestamp": 1768492800
+          },
+          "authorName": "Museum Press Office",
+          "newsCategory": [
+            {
+              "id": "Awards",
+              "name": "Awards"
+            },
+            {
+              "id": "Announcements",
+              "name": "Announcements"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-summer-programs",
+          "title": "Summer 2026 Programs: Registration Now Open",
+          "path": "/news/summer-programs-2026-registration-open",
+          "body": {
+            "processed": "<p>Registration is now open for the museum's popular summer education programs, including art camps for children, teen intensives, and adult studio classes. This year's offerings expand to include new courses in printmaking, digital photography, and art conservation.</p><h2>Programs for Young Artists (Ages 6-12)</h2><ul><li>Art Explorers Camp (weekly sessions, June-August)</li><li>Museum Detectives: Learning to Look (two-week intensive, July)</li></ul><h2>Teen Programs (Ages 13-17)</h2><ul><li>Portfolio Preparation Workshop (June)</li><li>Teen Arts Council Summer Institute (July-August)</li></ul><h2>Adult Classes</h2><ul><li>Introduction to Printmaking (6-week course, begins June 7)</li><li>Photography in the Galleries (weekend workshop series)</li><li>Art History Lecture Series: Modern to Contemporary (Thursdays, July-August)</li></ul><p>Early registration discount of 15% available through April 30. Museum members receive an additional 10% off all programs.</p>",
+            "summary": "Registration is now open for the museum's popular summer education programs, including art camps for children, teen intensives, and adult studio classes. This year's offerings expand to include new co"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?w=800&q=80",
+            "alt": "Students in an art studio class",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Sign up now for summer art camps, teen intensives, and adult studio classes, including new courses in printmaking and photography.</p>",
+            "summary": "Sign up now for summer art camps, teen intensives, and adult studio classes, including new courses in printmaking and photography."
+          },
+          "publishedDate": {
+            "timestamp": 1772373600
+          },
+          "authorName": "Education Department",
+          "newsCategory": [
+            {
+              "id": "Announcements",
+              "name": "Announcements"
+            },
+            {
+              "id": "Community",
+              "name": "Community"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

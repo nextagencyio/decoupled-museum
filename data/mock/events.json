@@ -1,0 +1,169 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-family-art-day",
+          "title": "Family Art Day: Colors of Spring",
+          "path": "/events/family-art-day-spring-2026",
+          "body": {
+            "processed": "<p>Bring the whole family for a day of creative exploration inspired by our Impressionism exhibition. Activities include guided gallery tours designed for children ages 5-12, hands-on painting workshops, a scavenger hunt through the galleries, and outdoor sketching in the museum sculpture garden.</p><h2>Schedule</h2><ul><li>10:00 AM - Gallery scavenger hunt begins (pick up materials at the front desk)</li><li>10:30 AM & 1:00 PM - Family gallery tours (45 minutes)</li><li>11:00 AM - 3:00 PM - Drop-in painting workshop (Art Studio, Level 1)</li><li>12:00 PM - 2:00 PM - Outdoor sketching in the sculpture garden (weather permitting)</li></ul><p>All materials provided. No registration required for drop-in activities.</p>",
+            "summary": "Bring the whole family for a day of creative exploration inspired by our Impressionism exhibition. Activities include guided gallery tours designed for children ages 5-12, hands-on painting workshops,"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+            "alt": "Children painting on canvases in a museum workshop",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1776524400
+          },
+          "endTime": {
+            "timestamp": 1776542400
+          },
+          "locationName": "Museum-wide",
+          "ticketPrice": "Free with admission",
+          "registrationUrl": "",
+          "audience": "Families with children ages 5-12",
+          "eventCategory": [
+            {
+              "id": "Family Program",
+              "name": "Family Program"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-curator-talk",
+          "title": "Curator's Talk: Behind the Scenes of Light in Motion",
+          "path": "/events/curator-talk-impressionism",
+          "body": {
+            "processed": "<p>Join Dr. Elena Vasquez, curator of our landmark Impressionism exhibition, for an intimate evening talk about the five-year journey to bring Light in Motion to life. Dr. Vasquez will share stories of discovering unknown works in private collections, the complex negotiations with international lenders, and the curatorial decisions that shaped the exhibition narrative.</p><p>The talk will be followed by a Q&A session and a guided walkthrough of select galleries. Light refreshments will be served.</p><h2>About the Speaker</h2><p>Dr. Elena Vasquez is the museum's Senior Curator of European Paintings. She has organized over twenty major exhibitions and is the author of three books on 19th-century French art. Her most recent publication, <em>Radical Light: The Impressionist Revolution</em>, was awarded the College Art Association's prize for distinguished writing on art.</p>",
+            "summary": "Join Dr. Elena Vasquez, curator of our landmark Impressionism exhibition, for an intimate evening talk about the five-year journey to bring Light in Motion to life. Dr. Vasquez will share stories of d"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&q=80",
+            "alt": "Speaker presenting in a museum lecture hall",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1775863800
+          },
+          "endTime": {
+            "timestamp": 1775871000
+          },
+          "locationName": "Auditorium, Level B1",
+          "ticketPrice": "$15 general, Free for members",
+          "registrationUrl": "https://meridianmuseum.org/events/curator-talk-registration",
+          "audience": "Adults",
+          "eventCategory": [
+            {
+              "id": "Lecture",
+              "name": "Lecture"
+            },
+            {
+              "id": "Members Event",
+              "name": "Members Event"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-sketch-night",
+          "title": "After-Hours Sketch Night",
+          "path": "/events/sketch-night-april",
+          "body": {
+            "processed": "<p>Grab your sketchbook and join fellow art enthusiasts for an evening of drawing in the galleries after regular museum hours. This popular monthly program offers a relaxed, social atmosphere where artists of all skill levels can practice observational drawing surrounded by masterworks.</p><h2>What to Bring</h2><ul><li>Your own sketchbook and drawing materials (pencils, charcoal, or pastels only - no wet media)</li><li>A portable stool or cushion if you prefer to sit</li></ul><h2>Guidelines</h2><p>Participants must maintain a distance of at least 3 feet from all artworks. Easels are not permitted in the galleries. A staff member will be available in each gallery to assist and offer informal guidance.</p>",
+            "summary": "Grab your sketchbook and join fellow art enthusiasts for an evening of drawing in the galleries after regular museum hours. This popular monthly program offers a relaxed, social atmosphere where artis"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+            "alt": "Person sketching artwork in a museum gallery",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1777071600
+          },
+          "endTime": {
+            "timestamp": 1777082400
+          },
+          "locationName": "European Paintings Galleries, Floor 2",
+          "ticketPrice": "$10 general, $5 for members and students",
+          "registrationUrl": "https://meridianmuseum.org/events/sketch-night-registration",
+          "audience": "Adults, all skill levels",
+          "eventCategory": [
+            {
+              "id": "Workshop",
+              "name": "Workshop"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

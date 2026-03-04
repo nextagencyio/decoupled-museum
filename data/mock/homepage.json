@@ -1,0 +1,85 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Meridian Museum of Art",
+          "path": "/homepage",
+          "heroTitle": "Where Art Meets Discovery",
+          "heroSubtitle": "Meridian Museum of Art",
+          "heroDescription": {
+            "processed": "<p>Explore over 15,000 works spanning five millennia of human creativity. From ancient civilizations to contemporary masterpieces, every visit reveals something extraordinary.</p>",
+            "summary": "Explore over 15,000 works spanning five millennia of human creativity. From ancient civilizations to contemporary masterpieces, every visit reveals something extraordinary."
+          },
+          "heroImage": {
+            "url": "https://images.unsplash.com/photo-1566054757965-8c4085344c96?w=800&q=80",
+            "alt": "Grand museum gallery with visitors admiring artwork",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1566054757965-8c4085344c96?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1566054757965-8c4085344c96?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1566054757965-8c4085344c96?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-visitors",
+              "title": "",
+              "number": "250,000+",
+              "label": "Annual Visitors"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-artworks",
+              "title": "",
+              "number": "15,000",
+              "label": "Artworks in Collection"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-exhibitions",
+              "title": "",
+              "number": "40+",
+              "label": "Exhibitions Per Year"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "75",
+              "label": "Years of Excellence"
+            }
+          ],
+          "featuredItemsTitle": "Current Exhibitions",
+          "ctaTitle": "Become a Member",
+          "ctaDescription": {
+            "processed": "<p>Join the Meridian Museum community and enjoy unlimited free admission, exclusive exhibition previews, discounts at the museum shop, and invitations to members-only events throughout the year.</p>",
+            "summary": "Join the Meridian Museum community and enjoy unlimited free admission, exclusive exhibition previews, discounts at the museum shop, and invitations to members-only events throughout the year."
+          },
+          "ctaPrimary": "Join Today",
+          "ctaSecondary": "Learn More"
+        }
+      ]
+    }
+  }
+}
