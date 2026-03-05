@@ -8,7 +8,7 @@ import { Menu, X, Sparkles } from 'lucide-react'
 
 const navigationItems = [
   { name: 'Home', href: '/' },
-  { name: 'Collections', href: '/collections' },
+  { name: 'Collections', href: '/collection' },
   { name: 'Events', href: '/events' },
   { name: 'About', href: '/about' },
 ]

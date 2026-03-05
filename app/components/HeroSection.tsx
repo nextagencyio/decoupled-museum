@@ -22,7 +22,7 @@ export default function HeroSection({ homepageContent }: HeroSectionProps) {
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-light text-white mb-8 tracking-wide leading-tight">{title}</h1>
         {subtitle && <p className="text-lg md:text-xl text-accent-300 mb-8 max-w-3xl mx-auto font-light tracking-wide">{subtitle}</p>}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
-          <Link href="/collections" className="inline-flex items-center justify-center px-8 py-3 bg-accent-500 text-slate-950 font-semibold tracking-wide hover:bg-accent-400 transition-colors">Explore Collection</Link>
+          <Link href="/collection" className="inline-flex items-center justify-center px-8 py-3 bg-accent-500 text-slate-950 font-semibold tracking-wide hover:bg-accent-400 transition-colors">Explore Collection</Link>
           <Link href="/about" className="inline-flex items-center justify-center px-8 py-3 border border-white/30 text-white hover:bg-white/10 transition-colors tracking-wide">About Us</Link>
         </div>
       </div>
