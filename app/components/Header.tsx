@@ -17,6 +17,19 @@ export default function Header() {
   const pathname = usePathname()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const [bannerHeight, setBannerHeight] = useState(0)
+
+  useEffect(() => {
+    const banner = document.querySelector('[class*="bg-amber-500"]') as HTMLElement | null
+    if (banner) {
+      const update = () => setBannerHeight(banner.offsetHeight)
+      update()
+      const observer = new MutationObserver(update)
+      observer.observe(banner, { attributes: true, childList: true, subtree: true })
+      window.addEventListener('resize', update)
+      return () => { observer.disconnect(); window.removeEventListener('resize', update) }
+    }
+  }, [])
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20)
@@ -35,7 +48,7 @@ export default function Header() {
   const activeTab = getActiveTab()
 
   return (
-    <header className={clsx('fixed left-0 right-0 z-50 transition-all duration-300', scrolled ? 'bg-slate-950/90 backdrop-blur-md' : 'bg-transparent')}>
+    <header className={clsx('fixed left-0 right-0 z-50 transition-all duration-300', scrolled ? 'bg-slate-950/90 backdrop-blur-md' : 'bg-transparent')} style={{ top: bannerHeight }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity duration-200">
