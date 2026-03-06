@@ -45,28 +45,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-visitors",
               "title": "",
-              "number": "250,000+",
+              "number": "250,000+", "value": "250,000+",
               "label": "Annual Visitors"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-artworks",
               "title": "",
-              "number": "15,000",
+              "number": "15,000", "value": "15,000",
               "label": "Artworks in Collection"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-exhibitions",
               "title": "",
-              "number": "40+",
+              "number": "40+", "value": "40+",
               "label": "Exhibitions Per Year"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-years",
               "title": "",
-              "number": "75",
+              "number": "75", "value": "75",
               "label": "Years of Excellence"
             }
           ],
