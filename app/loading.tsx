@@ -1,9 +1,10 @@
 export default function Loading() {
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+    <div className="flex min-h-screen items-center justify-center bg-slate-950">
       <div className="text-center">
-        <div className="w-12 h-12 border-4 border-purple-200 border-t-purple-600 rounded-full animate-spin mx-auto mb-4"></div>
-        <p className="text-gray-600">Loading Meridian Museum of Art & History...</p>
+        <div className="mx-auto mb-6 h-px w-20 bg-gradient-to-r from-transparent via-accent-400 to-transparent" />
+        <div className="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-2 border-slate-700 border-t-accent-400" />
+        <p className="text-sm font-medium uppercase tracking-[0.24em] text-slate-400">Loading gallery</p>
       </div>
     </div>
   )

@@ -25,11 +25,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 function PageNotFound({ path }: { path: string }) {
   return (
-    <div className="text-center py-16">
-      <div className="bg-white rounded-lg shadow-sm p-12">
-        <h1 className="text-2xl font-semibold text-gray-900 mb-4">Page Not Found</h1>
-        <p className="text-gray-600 mb-2">We couldn&#39;t find any content at this path.</p>
-        <p className="text-sm text-gray-500">Path: {path}</p>
+    <div className="py-16 text-center">
+      <div className="rounded-3xl border border-slate-800 bg-slate-900/70 p-12">
+        <h1 className="mb-4 text-2xl font-semibold text-white">Page Not Found</h1>
+        <p className="mb-2 text-slate-300">We couldn&#39;t find any content at this path.</p>
+        <p className="text-sm text-slate-500">Path: {path}</p>
       </div>
     </div>
   )
@@ -46,7 +46,7 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
 
     if (!entity) {
       return (
-        <div className="min-h-screen bg-gray-50">
+        <div className="min-h-screen bg-slate-950 text-white">
           <Header />
           <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <PageNotFound path={path} />
@@ -64,22 +64,26 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
     const image = entity?.image
 
     return (
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-slate-950 text-white">
         <Header />
-        <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+        <main className="mx-auto max-w-5xl px-4 py-8 sm:px-6 md:py-12 lg:px-8">
           <ErrorBoundary>
-            <article className="bg-white rounded-lg shadow-sm overflow-hidden">
+            <article className="overflow-hidden rounded-[2rem] border border-slate-800 bg-slate-900/80 shadow-2xl shadow-black/20">
               {image && (
                 <ResponsiveImage
                   image={image}
                   alt={image.alt || title}
-                  className="rounded-t-lg"
+                  className="rounded-t-[2rem]"
                   priority={true}
                 />
               )}
-              <div className="p-6 md:p-8">
-                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 md:mb-6">{title}</h1>
-                <div className="prose prose-sm sm:prose lg:prose-lg max-w-none" dangerouslySetInnerHTML={{ __html: bodyHtml }} />
+              <div className="p-6 md:p-10">
+                <div className="mb-6 h-px w-20 bg-gradient-to-r from-accent-400 to-transparent" />
+                <h1 className="mb-4 font-display text-2xl font-semibold text-white sm:text-3xl md:mb-6 md:text-4xl lg:text-5xl">{title}</h1>
+                <div
+                  className="prose prose-sm prose-invert prose-slate max-w-none sm:prose lg:prose-lg prose-headings:font-display prose-headings:text-white prose-p:text-slate-300 prose-strong:text-white prose-a:text-accent-300"
+                  dangerouslySetInnerHTML={{ __html: bodyHtml }}
+                />
               </div>
             </article>
           </ErrorBoundary>
@@ -89,7 +93,7 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
   } catch (error) {
     console.error('Error loading page by path:', error)
     return (
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-slate-950 text-white">
         <Header />
         <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <PageNotFound path={path} />

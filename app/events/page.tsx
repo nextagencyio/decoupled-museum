@@ -34,17 +34,19 @@ export default async function EventsPage() {
   const items = await getEvents()
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-slate-950 text-white">
       <Header />
 
-      <section className="bg-gradient-to-br from-purple-900 via-purple-800 to-purple-900 text-white py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative overflow-hidden border-b border-slate-800 bg-slate-950 py-24 md:py-32">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(251,191,36,0.16),_transparent_35%),linear-gradient(180deg,rgba(15,23,42,0.3),rgba(2,6,23,0.95))]" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+            <div className="mx-auto mb-8 h-px w-20 bg-gradient-to-r from-transparent via-accent-400 to-transparent" />
+            <h1 className="mb-6 font-display text-4xl font-semibold tracking-[0.08em] md:text-5xl lg:text-6xl">
               Events
             </h1>
-            <p className="text-xl text-purple-100 max-w-3xl mx-auto">
-              Explore our events.
+            <p className="mx-auto max-w-3xl text-lg leading-8 text-slate-300 md:text-xl">
+              Lectures, evenings, and special programming now sit inside the same cinematic shell as the landing page.
             </p>
           </div>
         </div>
@@ -53,9 +55,9 @@ export default async function EventsPage() {
       <section className="py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {items.length === 0 ? (
-            <div className="text-center py-12">
-              <h2 className="text-2xl font-semibold text-gray-600 mb-2">No Events Yet</h2>
-              <p className="text-gray-500">
+            <div className="rounded-3xl border border-slate-800 bg-slate-900/70 px-8 py-16 text-center">
+              <h2 className="mb-2 text-2xl font-semibold text-white">No Events Yet</h2>
+              <p className="text-slate-400">
                 Events will appear here once content is imported.
               </p>
             </div>

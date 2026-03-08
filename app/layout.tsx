@@ -64,7 +64,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${cormorant.variable} ${inter.variable}`}>
-      <body className="font-sans bg-gray-50 text-gray-900 antialiased">
+      <body className="font-sans bg-slate-950 text-white antialiased">
         <DemoModeBanner />
         <ApolloProvider>
           {children}

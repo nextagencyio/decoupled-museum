@@ -63,19 +63,20 @@ export default async function EventDetailPage({ params }: PageProps) {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-slate-950 text-white">
       <Header />
 
-      <section className="bg-gradient-to-br from-purple-900 via-purple-800 to-purple-900 text-white py-12 md:py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative overflow-hidden border-b border-slate-800 bg-slate-950 py-16 md:py-20">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(251,191,36,0.14),_transparent_35%),linear-gradient(180deg,rgba(15,23,42,0.2),rgba(2,6,23,0.95))]" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link
             href="/events"
-            className="inline-flex items-center text-purple-200 hover:text-white mb-6 transition-colors"
+            className="mb-6 inline-flex items-center text-sm font-semibold uppercase tracking-[0.2em] text-accent-300 transition-colors hover:text-white"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Events
           </Link>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">
+          <h1 className="font-display text-3xl font-semibold md:text-4xl lg:text-5xl">
             {item.title}
           </h1>
         </div>
@@ -86,7 +87,7 @@ export default async function EventDetailPage({ params }: PageProps) {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <div className="lg:col-span-2">
               {(item as any).image?.url && (
-                <div className="relative h-64 md:h-96 rounded-xl overflow-hidden shadow-lg mb-8">
+                <div className="relative mb-8 h-64 overflow-hidden rounded-[2rem] border border-slate-800 shadow-2xl shadow-black/20 md:h-96">
                   <ResponsiveImage
                     src={(item as any).image.url}
                     alt={(item as any).image.alt || item.title}
@@ -99,9 +100,9 @@ export default async function EventDetailPage({ params }: PageProps) {
               )}
 
               {(item as any).body?.processed && (
-                <div className="bg-white rounded-xl shadow-sm p-8">
+                <div className="rounded-[2rem] border border-slate-800 bg-slate-900/80 p-8">
                   <div
-                    className="prose prose-lg max-w-none"
+                    className="prose prose-lg prose-invert prose-slate max-w-none prose-headings:font-display prose-headings:text-white prose-p:text-slate-300 prose-strong:text-white prose-a:text-accent-300"
                     dangerouslySetInnerHTML={{ __html: (item as any).body.processed }}
                   />
                 </div>
@@ -109,38 +110,38 @@ export default async function EventDetailPage({ params }: PageProps) {
             </div>
 
             <div className="lg:col-span-1">
-              <div className="bg-white rounded-xl shadow-sm p-6 sticky top-24">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">Details</h3>
+              <div className="sticky top-24 rounded-[2rem] border border-slate-800 bg-slate-900/80 p-6">
+                <h3 className="mb-4 text-lg font-semibold uppercase tracking-[0.18em] text-accent-300">Details</h3>
                 <dl className="space-y-4">
                   {(item as any).locationName && (
                     <div>
-                      <dt className="text-sm text-gray-500">Location</dt>
-                      <dd className="font-semibold text-gray-900">{(item as any).locationName}</dd>
+                      <dt className="text-sm text-slate-500">Location</dt>
+                      <dd className="font-semibold text-white">{(item as any).locationName}</dd>
                     </div>
                   )}
                   {(item as any).ticketPrice && (
                     <div>
-                      <dt className="text-sm text-gray-500">Ticket Price</dt>
-                      <dd className="font-semibold text-gray-900">{(item as any).ticketPrice}</dd>
+                      <dt className="text-sm text-slate-500">Ticket Price</dt>
+                      <dd className="font-semibold text-white">{(item as any).ticketPrice}</dd>
                     </div>
                   )}
                   {(item as any).registrationUrl && (
                     <div>
-                      <dt className="text-sm text-gray-500">Registration URL</dt>
-                      <dd className="font-semibold text-gray-900">{(item as any).registrationUrl}</dd>
+                      <dt className="text-sm text-slate-500">Registration URL</dt>
+                      <dd className="font-semibold text-white break-all">{(item as any).registrationUrl}</dd>
                     </div>
                   )}
                   {(item as any).audience && (
                     <div>
-                      <dt className="text-sm text-gray-500">Audience</dt>
-                      <dd className="font-semibold text-gray-900">{(item as any).audience}</dd>
+                      <dt className="text-sm text-slate-500">Audience</dt>
+                      <dd className="font-semibold text-white">{(item as any).audience}</dd>
                     </div>
                   )}
                 </dl>
                 <div className="mt-8">
                   <Link
                     href="/contact"
-                    className="block w-full text-center px-6 py-3 bg-purple-700 text-white rounded-lg font-bold hover:bg-purple-600 transition-colors"
+                    className="block w-full rounded-full bg-accent-500 px-6 py-3 text-center text-sm font-semibold uppercase tracking-[0.18em] text-slate-950 transition-colors hover:bg-accent-400"
                   >
                     Contact Us
                   </Link>
